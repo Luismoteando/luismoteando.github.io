@@ -55,7 +55,7 @@
 			setTimeout(function() {
 				$('html, body').animate({
 					scrollTop: $(href).offset().top
-				}, 800, function () {
+				}, 0, function () {
 					window.location.hash = href;
 				});
 			}, 400);
